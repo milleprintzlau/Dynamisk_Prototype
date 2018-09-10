@@ -1,0 +1,164 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+
+
+
+}
+
+
+#styletile {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: arial;
+    color: #F8B676;
+}
+
+#idebeskrivelse p {
+    width: 90vw;
+    font-family: arial;
+
+}
+
+
+#moodboard object {
+    width: 90vw;
+    height: 600px;
+
+}
+
+#sekvensdiagram object {
+    width: 50vw;
+    height: 700px;
+}
+
+#flowchart object {
+    width: 50vw;
+    height: 600px;
+}
+
+#Layoutdiagram object {
+    width: 50vw;
+    height: 600px;
+}
+
+#skitser object {
+     width: 50vw;
+    height: 400px;
+}
+
+#Test-dokumentation object {
+     width: 50vw;
+    height: 600px;
+}
+
+#Burn-down-charts object {
+     width: 50vw;
+    height: 600px;
+}
+
+#Mockup object {
+       width: 50vw;
+    height: 600px;
+}
+
+#Persona object {
+    width: 50vw;
+    height: 600px;
+
+}
+
+#Ferniseringen object {
+     width: 50vw;
+    height: 400px;
+
+}
+
+#Trello object {
+      width: 50vw;
+    height: 400px;
+}
+
+header h1 {
+    font-family: arial;
+    color: white;
+    font-size: 6.5vw;
+    padding-top: 6em;
+    align-self: stretch;
+    background-image: url(forside-01.png);
+    background-size: 100%
+}
+
+header a {
+    color: #0D1B28;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+a {
+      color: #0D1B28;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+footer {
+    height: 300px;
+    background: white;
+    align-self: stretch;
+}
+
+footer p {
+    font-family: arial;
+    font-size: 1.5em;
+    color: #0D1B28;
+    padding-top: 5em;
+    margin: 0;
+}
+
+nav {
+    font-family: arial;
+    font-size: 1.4em;
+    color: #0D1B28;
+    justify-content: space-between;
+
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #F38B2E;
+}
+
+nav a {
+    padding: 20px 10px;
+    border: 1px solid white;
+}
+
+#Trello {
+    display: flex;
+    flex-direction: column;
+}
+
+#Trello object {
+}
+
+#Trello a {
+    text-decoration: none;
+    color: #0D1B28;
+    font-size: 1.5em;
+
+}
+#Trello a:hover {
+    color: #F38B2E;
+}
