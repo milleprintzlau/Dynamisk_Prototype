@@ -30,8 +30,8 @@ h1 {
 
 
 #moodboard object {
-    width: 90vw;
-    height: 600px;
+    max-width: 60vw;
+    height: 400px;
 
 }
 
@@ -40,17 +40,17 @@ h1 {
     height: 700px;
 }
 
-#flowchart object {
+#WireFrame object {
     width: 50vw;
     height: 600px;
 }
 
-#Layoutdiagram object {
+#Mockup object {
     width: 50vw;
     height: 600px;
 }
 
-#skitser object {
+#Moodboard_pr object {
      width: 50vw;
     height: 400px;
 }
