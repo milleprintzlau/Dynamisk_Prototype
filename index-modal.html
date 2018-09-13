@@ -169,15 +169,17 @@
     </section>
 
     <header>
-        <h3>Bistro Babushka</h3>
-        <h1>Menu</h1>
+           <img src="logo-01.png" alt="Logo">
+           <h1></h1>
         <nav>
-            <button class="menu-item" data-kategori="alle">Alle retter</button>
-            <button class="menu-item" data-kategori="forretter">forretter</button>
-            <button class="menu-item" data-kategori="hovedretter">hovedretter</button>
-            <button class="menu-item" data-kategori="desserter">desserter</button>
-            <button class="menu-item" data-kategori="sideorders">sideorders</button>
-            <button class="menu-item" data-kategori="drikkevarer">drikkevarer</button>
+
+            <button class="menu-item" data-kategori="Pie">Pie</button>
+
+            <button class="menu-item" data-kategori="Icecream">Icecream</button>
+
+            <button class="menu-item" data-kategori="Drinks">Beverage</button>
+
+
         </nav>
     </header>
 
@@ -206,9 +208,13 @@
         let modal = document.querySelector("#modal");
         let dest = document.querySelector(".retContainer"),
             retter, menuFilter = "alle";
+
+
+
+
         document.addEventListener("DOMContentLoaded", hentJson);
         async function hentJson() {
-            let jsonData = await fetch("menu.json");
+            let jsonData = await fetch("pie.json");
             retter = await jsonData.json();
             visRetter();
         }
@@ -223,17 +229,22 @@
         function visRetter() {
             let temp = document.querySelector(".retTemplate");
             let dest = document.querySelector(".retContainer");
+
             document.querySelector("header h1").textContent = menuFilter;
             retter.forEach(ret => {
                 if (ret.kategori == menuFilter || menuFilter == "alle") {
+
                     let klon = temp.cloneNode(true).content;
-                    klon.querySelector(".data-navn").textContent = ret.navn;
-                    klon.querySelector(".data-billede").src = "imgs/small/" + ret.billede + "-sm.jpg";
+                    klon.querySelector(".data-navn").textContent = ret.Navn;
+
+                    klon.querySelector(".data-billede").src = "img/small/" + ret.Billede +
+                        "-TS.png";
+
                     klon.querySelector(".data-billede").addEventListener("click", () => {
                         visModal(ret);
                     });
 
-                    klon.querySelector(".data-kortbeskrivelse").textContent = ret.kortbeskrivelse;
+
                     klon.querySelector(".data-pris").textContent = ret.pris;
                     dest.appendChild(klon);
                 }
@@ -244,8 +255,10 @@
             modal.querySelector(".modal-navn").textContent = retter.navn;
 
             //        Man skal kalde på billedet inde i mappen, og derfor skal det laves ligesom det fornede.
-            modal.querySelector(".modal-billede").src = "imgs/small/" + retter.billede + "-sm.jpg";
-            modal.querySelector(".modal-billede").alt = "Foto af" + retter.navn;
+            modal.querySelector(".modal-billede").src = "img/Medium/" + retter.Billede + "-TM.png";
+            modal.querySelector(".modal-billede").alt = "Foto af" + retter.Navn;
+
+            modal.querySelector(".data-kortbeskrivelse").textContent = ret.Beskrivelse;
 
             modal.querySelector("button").addEventListener("click", skjulModal);
         }

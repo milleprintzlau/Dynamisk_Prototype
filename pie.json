@@ -1,0 +1,131 @@
+[
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "AppelCrunchPie",
+    "Beskrivelse": "Flour, Brown sugar,  Butter, Sugar, Appels & Vanilla",
+    "Navn": "Dutch Apple Crust Pie",
+    "Id": 1
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "CreamChokoPie",
+    "Beskrivelse": "Almonds, Cacao powder, Salt, Coconut oil, Milk, Dark chokolate & Maple sirup",
+    "Navn": "Heavy Cream Pie",
+    "Id": 2
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "BlueberryPie",
+    "Beskrivelse": "Sugar, Cornstarch, Salt, Cinnamon, Blueberries & Butter",
+    "Navn": "Blue Pie In The Sky",
+    "Id": 3
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "StrawberryPie",
+    "Beskrivelse": "Fresh strawberries, sugar, Cornstarch, Lemon, Heavy Cream & Vanilla",
+    "Navn": "StawStar Pie",
+    "Id": 4
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "LemonPie",
+    "Beskrivelse": "Lemon, Sugar, Heavy Cream & Vanilla",
+    "Navn": "Lemon Love Pie",
+    "Id": 5
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "Bourbon",
+    "Beskrivelse": "Bourbon, Sugar & Heavy Cream",
+    "Navn": "The Grown Up Pie",
+    "Id": 6
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "ChokoPie",
+    "Beskrivelse": "Cacao powder, Salt, Coconut oil, Milk, Dark chokolate & Maple sirup",
+    "Navn": "The Brown Pie",
+    "Id": 7
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "LimePie",
+    "Beskrivelse": "Fresh lime, sugar & Heavy Cream",
+    "Navn": "The Bitter Pie",
+    "Id": 8
+  },
+  {
+    "Katagori": "Pie",
+    "Pris": "60 kr",
+    "Billede": "RaspberryPie",
+    "Beskrivelse": "Fresh raspberry, sugar & Heavy Cream",
+    "Navn": "Rice Resp Pie",
+    "Id": 9
+  },
+
+  {
+    "Katagori": "Icecream",
+    "Pris": "40 kr",
+    "Billede": "StrawberryIce",
+    "Beskrivelse": "Organic icecream",
+    "Navn": "Strawberry Icecream",
+    "Id": 11
+  },
+  {
+    "Katagori": "Icecream",
+    "Pris": "40 kr",
+    "Billede": "OrangeIce",
+    "Beskrivelse": "Organic icecream",
+    "Navn": "Orange Icecream",
+    "Id": 12
+  },
+  {
+    "Katagori": "Icecream",
+    "Pris": "40 kr",
+    "Billede": "RaspberryIce",
+    "Beskrivelse": "Organic icecream",
+    "Navn": "Raspberry Icecream",
+    "Id": 13
+  },
+  {
+    "Katagori": "",
+    "Pris": "",
+    "Billede": "",
+    "Beskrivelse": "",
+    "Navn": "",
+    "Id": 14
+  },
+  {
+    "Katagori": "Drinks",
+    "Pris": "50 kr",
+    "Billede": "Hotchoko",
+    "Beskrivelse": "Organic chokolate",
+    "Navn": "Hot Choko",
+    "Id": 15
+  },
+  {
+    "Katagori": "Drinks",
+    "Pris": "50 kr",
+    "Billede": "coffee",
+    "Beskrivelse": "Coffee made on organic coffee beans",
+    "Navn": "Coffee",
+    "Id": 16
+  },
+  {
+    "Katagori": "Drinks",
+    "Pris": "30 kr",
+    "Billede": "Te",
+    "Beskrivelse": "Organic Tea",
+    "Navn": "Tea",
+    "Id": 17
+  }
+]
