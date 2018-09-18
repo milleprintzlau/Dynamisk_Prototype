@@ -1,30 +1,3 @@
-//BURGER MENU
-
-
-function onLoad() {
-
-
-
-    function toggleMenu() {
-        document.querySelector(".menu-item").classList.toggle("change");
-        document.querySelector("nav").classList.toggle("show");
-    }
-    document.querySelector(".menu-item").addEventListener("click", toggleMenu);
-    document.querySelector("ul").addEventListener("click", toggleMenu);
-
-     }
-
-
-document.addEventListener("DOMContentLoaded", function (event) {
-    onLoad();
-});
-
-
-
-
-
-
-
 
         let modal = document.querySelector("#modal");
         let dest = document.querySelector(".retContainer"),
@@ -59,17 +32,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 if (ret.Katagori == menuFilter || menuFilter == "alle") { let klon = temp.cloneNode(true).content;
 
 
-
-                    klon.querySelector(".data-billede").src = "imgs/small/" + ret.Billede + "-S.png";
-
                     klon.querySelector(".data-navn").textContent = ret.Navn;
 
-                    klon.querySelector(".data-billede").addEventListener("click", () => {
+                    klon.querySelector(".data-navn").addEventListener("click", () => {
                         visModal(ret);
                     });
 
 
-                    klon.querySelector(".data-pris").textContent = ret.Pris;
                     dest.appendChild(klon);
 
                 }
@@ -79,19 +48,26 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
         function visModal(retter) {
+            console.log("test");
 
             modal.classList.add("vis");
+
             modal.querySelector(".modal-navn").textContent = retter.Navn;
 
-        modal.querySelector(".modal-billede").src = "imgs/M/" + retter.Billede + "-M.png";
-        modal.querySelector(".modal-billede").alt = "Foto af" + retter.Navn;
+            modal.querySelector(".modal-billede").src = "imgs/medium/" + retter.Billede + "-M.png";
 
-        modal.querySelector(".beskrivelse").textContent = retter.Beskrivelse;
+            modal.querySelector(".modal-billede").alt = "Foto af" + retter.navn;
 
-     modal.querySelector("button").addEventListener("click", skjulModal);
+             modal.querySelector(".beskrivelse").textContent = retter.Beskrivelse;
+
+             modal.querySelector("button").addEventListener("click", skjulModal);
         }
+
+
+
     function skjulModal() {
-        console.log("test");
+
+
             modal.classList.remove("vis");
         }
 

@@ -34,7 +34,7 @@
   {
     "Katagori": "Pie",
     "Pris": 60,
-    "Billede": "LemonPie",
+    "Billede": "Lemonpie",
     "Beskrivelse": "Lemon, Sugar, Heavy Cream & Vanilla",
     "Navn": "Lemon Love Pie",
     "Id": 5
@@ -42,7 +42,7 @@
   {
     "Katagori": "Pie",
     "Pris": 60,
-    "Billede": "Bourbon",
+    "Billede": "BourbonPie",
     "Beskrivelse": "Bourbon, Sugar & Heavy Cream",
     "Navn": "The Grown Up Pie",
     "Id": 6
@@ -58,7 +58,7 @@
   {
     "Katagori": "Pie",
     "Pris": 60,
-    "Billede": "LimePie",
+    "Billede": "limepie",
     "Beskrivelse": "Fresh lime, sugar & Heavy Cream",
     "Navn": "The Bitter Pie",
     "Id": 8
@@ -91,7 +91,7 @@
   {
     "Katagori": "Icecream",
     "Pris": 40,
-    "Billede": "RaspberryIce",
+    "Billede": "RaspberryICe",
     "Beskrivelse": "Organic icecream",
     "Navn": "Raspberry Icecream",
     "Id": 13
@@ -100,7 +100,7 @@
   {
     "Katagori": "Drinks",
     "Pris": 50,
-    "Billede": "Hotchoko",
+    "Billede": "hotchoko",
     "Beskrivelse": "Organic chokolate",
     "Navn": "Hot Choko",
     "Id": 15
@@ -116,7 +116,7 @@
   {
     "Katagori": "Drinks",
     "Pris": 30,
-    "Billede": "Te",
+    "Billede": "te",
     "Beskrivelse": "Organic Tea",
     "Navn": "Tea",
     "Id": 17

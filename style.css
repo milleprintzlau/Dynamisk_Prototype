@@ -1,30 +1,263 @@
 
 
-  html {
-            margin: 0 auto;
-        }
 
-
-
-    body {
+body {
             font-family: 'Raleway', sans-serif;
             text-align: center;
             margin: 0 auto;
-            background-color: rgba(135, 206, 235, 0.27);
+
+
         }
 
 
+p{
 
-/*BURGERMENU*/
+      font-family: 'Raleway', sans-serif;
+    margin: 0px 200px 0px 200px;
 
-header{
-    display: grid;
-    grid-template-columns: 1fr;
+
 
 }
 
 
-                    /*MODEL*/
+/*OVERSKRIFT & UNDEROVERSKRIFT*/
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: url(slider-1.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+
+.overskrift{
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #7D1D22;
+    font-size: 7em;
+
+}
+
+.under_overskrift{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #7D1D22;
+    font-size: 50px;
+
+}
+
+
+
+
+/*NAVIGATION*/
+a{
+      padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+}
+
+a:hover {background-color: #3e8e41}
+
+a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+nav{
+    margin: 40px 40px 40px 40px;
+}
+
+
+
+
+
+/*ABOUT*/
+
+#About{
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+         margin: 20px 20px 200px 20px;
+
+}
+
+.text p{
+    margin-bottom: 100px;
+}
+
+.text h1{
+      font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #7D1D22;
+    font-size: 50px;
+
+}
+
+
+
+
+
+/*MENU*/
+
+#menu{
+     display: grid;
+}
+
+
+.menu_omrids{
+
+     border-style: solid;
+    margin: 0px 300px 200px 300px;
+
+}
+
+
+.retContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+                background-image: url(White%20&%20Red%20Pie%20Food%20Facebook%20Post%2015.56.07.png);
+
+         background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+
+.grid {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+
+.menu-item {
+  border-radius: 4px;
+
+    border-style: black solid;
+  color: #11164F;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.menu-item span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.menu-item span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.menu-item:hover span {
+  padding-right: 25px;
+}
+
+.menu-item:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.data-navn{
+
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #11164F;
+    font-size: 20px;
+    text-align: center;
+      padding: 1em 4em;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+
+}
+
+.data-navn:hover {
+  background-color:rgba(102, 102, 102, 0.3) ;
+    color: white;
+}
+
+
+
+/*CONTACT*/
+
+
+#contact{
+    margin: 0px 300px 200px 300px;
+        display: grid;
+            grid-template-columns: 1fr;
+
+}
+
+
+input[type=text], select, textarea {
+
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid white; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+    background-color: #CC0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #CC0000;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+
+
+
+
+
+/*MODEL*/
 
 
         #modal {
@@ -58,34 +291,323 @@ header{
             width: 30vw;
         }
 
-        .retContainer {
+
+
+/*FOOTER*/
+
+.footer-company-motto{
+      font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #7D1D22;
+    font-size: 50px;
+
+    padding: 50px 50px 50px 50px;
+
+
+}
+
+
+    /*MOBILE*/
+
+@media only screen and (max-width:375px) {
+
+    /*OVERSKRIFT & UNDEROVERSKRIFT*/
+
+    header{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    }
+
+    .overskrift{
+
+    font-size: 3em;
+
+    }
+
+    .under_overskrift{
+
+    font-size: 2em;
+
+    }
+
+
+/*NAVIGATION*/
+
+    a{
+    padding: 5px 10px;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+
+
+
+}
+
+    nav{
+    margin: 0px 0px 0px 0px;
+}
+
+
+/*ABOUT*/
+
+#About{
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+     margin: 0px 0px 0px 0px;
+
+
+
+}
+
+.text p{
+    font-size: 0.5em;
+
+}
+
+.text h1{
+
+    text-align: center;
+
+    font-size: 20px;
+
+}
+
+
+    /*MENU*/
+
+#menu{
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+
+.menu_omrids{
+
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+.retContainer {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-        .grid {
+            grid-template-columns: 1fr;
+
+
+
+}
+
+
+.grid {
             display: grid;
             grid-template-rows: 1fr;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-        .item-a {
-            grid-column-start: 2;
-        }
-        .item-b {
-            grid-column-start: 3;
+            grid-template-columns: 1fr;
         }
 
-        .pie{
-               background-color: blue;
-                padding: 30px 30px 30px 30px;
+
+.menu-item {
+  border-radius: 2px;
+
+  font-size: 10px;
+  padding: 20px;
+  width: 100px;
+
+  margin: 0px;
+}
+
+
+.data-navn{
+
+    text-align: center;
+
+    font-size: 10px;
+    text-align: center;
+      padding: 1em 2em;
+
+
+}
+
+.text_slut p{
+            font-size: 0.5em;
+            display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+     margin: 0px 0px 0px 0px;
+        margin-top: 50px;
+
+    }
+
+
+
+/*CONTACT*/
+
+
+#contact{
+    margin: 0px 0px 0px 0px;
+        display: grid;
+            grid-template-columns: 1fr;
+
+}
+
+
 
 
 
 }
 
-.box{
-    background-color: aqua;
-    padding: 30px 30px 30px 30px;
-    grid-row-start: 1;
+    /*IPAD*/
+
+@media only screen and (max-width:668px) {
+
+
+
+        /*OVERSKRIFT & UNDEROVERSKRIFT*/
+
+    header{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    }
+
+    .overskrift{
+
+    font-size: 3em;
+
+    }
+
+    .under_overskrift{
+
+    font-size: 2em;
+
+    }
+
+    /*NAVIGATION*/
+
+    a{
+    padding: 5px 10px;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+
+
+
+}
+
+    nav{
+    margin: 0px 0px 0px 0px;
+}
+
+
+    /*ABOUT*/
+
+#About{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+     margin: 0px 0px 0px 0px;
+
+
+
+}
+
+.text p{
+    font-size: 0.5em;
+
+}
+
+.text h1{
+
+    text-align: center;
+
+    font-size: 20px;
+
+}
+
+
+    /*MENU*/
+
+#menu{
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+
+}
+
+
+.menu_omrids{
+
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+.retContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+
+.grid {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+        }
+
+
+.menu-item {
+  border-radius: 2px;
+
+  font-size: 10px;
+  padding: 20px;
+  width: 100px;
+
+  margin: 0px;
+}
+
+
+.data-navn{
+
+    text-align: center;
+
+    font-size: 10px;
+    text-align: center;
+      padding: 1em 2em;
+
+
+}
+
+.text_slut p{
+            font-size: 0.5em;
+            display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+     margin: 0px 0px 0px 0px;
+        margin-top: 50px;
+
+    }
+
+
+
+/*CONTACT*/
+
+
+#contact{
+    margin: 0px 0px 0px 0px;
+        display: grid;
+            grid-template-columns: 1fr;
+
 }
 
 
@@ -94,50 +616,12 @@ header{
 
 
 
-        @media screen and (min-width:768px) {
-              .burger {
-             display: none;
-         }
-         nav {
-             max-height: 200px;
-         }
-         li {
-             display: inline-block;
-         }
-     }
+}
 
 
-        @media only screen and (max-width: 1229px) {
-            .grid {
-                grid-template-rows: 1fr 1fr;
-                grid-template-columns: 1fr;
-            }
 
-            .retContainer {
-                grid-template-columns: 1fr 1fr;
-            }
-            .item-a {
-                grid-row-start: 1;
-                grid-column-start: 1;
-            }
-            .item-b {
-                grid-row-start: 2;
-                grid-column-start: 1;
-            }
-        }
-        @media only screen and (max-width: 830px) {
-            .ret img {
-                width: 100%
-            }
-            .retContainer {
-                grid-template-columns: 1fr;
-            }
-        }
-        @media only screen and (max-width: 425px) {
-            .ret img {
-                width: 100%
-            }
-            .retContainer {
-                grid-template-columns: 1fr;
-            }
-        }
+
+
+
+
+
