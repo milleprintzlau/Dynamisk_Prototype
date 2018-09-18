@@ -1,3 +1,46 @@
+
+
+/*NAVIGATION*/
+
+
+    a {
+    color:black;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 1.5vw;
+        padding: 10px 10px 10px 10px;
+
+}
+
+
+
+
+/*HEADLINE*/
+
+h1 {
+    font-family: arial;
+    color: rgba(17, 22, 79, 0.65);
+    font-size: 2em;
+}
+
+
+
+
+
+
+#idebeskrivelse a{
+    color: #7D1D22;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 1vw;
+
+}
+
+
+
+
+
+
 body {
     margin: 0 auto;
     width: 100%;
@@ -17,10 +60,6 @@ body {
     height: 100%;
 }
 
-h1 {
-    font-family: arial;
-    color: #F8B676;
-}
 
 #idebeskrivelse p {
     width: 90vw;
@@ -66,56 +105,16 @@ h1 {
 }
 
 
-
-
-
-#Mockup object {
+#Kode_Forklaring .object data {
        width: 50vw;
-    height: 600px;
+    height: 6000px;
 }
 
-#Persona object {
-    width: 50vw;
-    height: 600px;
 
-}
 
-#Ferniseringen object {
-     width: 50vw;
-    height: 400px;
 
-}
 
-#Trello object {
-      width: 50vw;
-    height: 400px;
-}
 
-header h1 {
-    font-family: arial;
-    color: white;
-    font-size: 6.5vw;
-    padding-top: 6em;
-    align-self: stretch;
-    background-image: url(forside-01.png);
-    background-size: 100%
-}
-
-header a {
-    color: #0D1B28;
-    font-family: arial;
-    text-decoration: none;
-    font-size: 3vw;
-    font-weight: 600;
-}
-
-a {
-      color: #0D1B28;
-    font-family: arial;
-    text-decoration: none;
-    font-size: 3vw;
-    font-weight: 600;
-}
 
 footer {
     height: 300px;
@@ -131,38 +130,6 @@ footer p {
     margin: 0;
 }
 
-nav {
-    font-family: arial;
-    font-size: 1.4em;
-    color: #0D1B28;
-    justify-content: space-between;
 
-    text-decoration: none;
-}
 
-header a:hover {
-    color: #F38B2E;
-}
 
-nav a {
-    padding: 20px 10px;
-    border: 1px solid white;
-}
-
-#Trello {
-    display: flex;
-    flex-direction: column;
-}
-
-#Trello object {
-}
-
-#Trello a {
-    text-decoration: none;
-    color: #0D1B28;
-    font-size: 1.5em;
-
-}
-#Trello a:hover {
-    color: #F38B2E;
-}
