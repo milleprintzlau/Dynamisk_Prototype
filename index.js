@@ -1,9 +1,11 @@
-
+//KALDER
         let modal = document.querySelector("#modal");
         let dest = document.querySelector(".retContainer"),
             retter, menuFilter = "alle";
 
 
+
+//TIL AT HENTE MIN .JSON FIL - MED ALLE DATERNE
         document.addEventListener("DOMContentLoaded", hentJson);
         async function hentJson() {
             let jsonData = await fetch("pie.json");
@@ -12,6 +14,8 @@
         }
 
 
+
+//FILTERINGS KODER, SÅ JEG KAN FÅ HENTEDE DATERNE OG OPDELT DEM UNDER "FOREACH", SÅ JEG KAN VISE DE FORSKELLIGE RETTER
         document.querySelectorAll(".menu-item").forEach(knap => {
             knap.addEventListener("click", filtrering)
         });
@@ -20,6 +24,10 @@
             menuFilter = this.getAttribute("data-kategori");
             visRetter();
         }
+
+
+
+//DATA-CONTAINEREN, SOM FÅR TEKSTEN FREM OG TIL AT KUNNE KLIKKE PÅ FOR AT KOMME TIL "VISMODAL"
         function visRetter() {
 
             let temp = document.querySelector(".retTemplate");
@@ -46,7 +54,7 @@
         }
 
 
-
+//TIL AT VISE MODAL VINDUET - SOM ER DET VINDUE SOM KOMMER FREM NÅR DU KLIKKER PÅ RETTEN
         function visModal(retter) {
             console.log("test");
 
@@ -64,7 +72,7 @@
         }
 
 
-
+//TIL AT SKJULE MODAL VINDUET IGEN
     function skjulModal() {
 
 

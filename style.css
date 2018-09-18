@@ -1,6 +1,5 @@
 
 
-
 body {
             font-family: 'Raleway', sans-serif;
             text-align: center;
@@ -206,6 +205,14 @@ nav{
     color: white;
 }
 
+
+.text_slut{
+     font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #7D1D22;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
 
 
 /*CONTACT*/
@@ -462,7 +469,7 @@ input[type=submit]:hover {
 
     /*IPAD*/
 
-@media only screen and (max-width:668px) {
+@media only screen and (max-width:768px) {
 
 
 
@@ -617,11 +624,4 @@ input[type=submit]:hover {
 
 
 }
-
-
-
-
-
-
-
 
