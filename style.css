@@ -296,6 +296,7 @@ input[type=submit]:hover {
         #modal img {
             height: 50vh;
             width: 30vw;
+            margin-top: 40px;
         }
 
 
@@ -317,6 +318,32 @@ input[type=submit]:hover {
     /*MOBILE*/
 
 @media only screen and (max-width:375px) {
+
+    /*MODAL*/
+
+        .modal_next{
+           column-count: 1;
+
+        }
+
+    .beskrivelse{
+        display: none;
+    }
+
+        #modal.vis {
+            /*display: block;*/
+            opacity: 1;
+            pointer-events: all;
+            transition: 0.5s;
+        }
+        #modal img {
+            height: 20vh;
+            width: 30vw;
+            margin-top: 40px;
+        }
+
+
+
 
     /*OVERSKRIFT & UNDEROVERSKRIFT*/
 
@@ -470,6 +497,31 @@ input[type=submit]:hover {
     /*IPAD*/
 
 @media only screen and (max-width:768px) {
+
+    /*MODAL*/
+
+        .modal_next{
+           column-count: 1;
+
+        }
+
+    .beskrivelse{
+        display: none;
+    }
+
+        #modal.vis {
+            /*display: block;*/
+            opacity: 1;
+            pointer-events: all;
+            transition: 0.5s;
+        }
+        #modal img {
+            height: 20vh;
+            width: 30vw;
+            margin-top: 40px;
+        }
+
+
 
 
 
