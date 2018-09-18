@@ -68,6 +68,10 @@
 
              modal.querySelector(".beskrivelse").textContent = retter.Beskrivelse;
 
+              modal.querySelector(".modal-pris").textContent = retter.Pris;
+
+
+
              modal.querySelector("button").addEventListener("click", skjulModal);
         }
 
