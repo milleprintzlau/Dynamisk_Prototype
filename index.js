@@ -66,7 +66,7 @@
 
             modal.querySelector(".modal-billede").alt = "Foto af" + retter.navn;
 
-             modal.querySelector(".beskrivelse").textContent = retter.Beskrivelse;
+
 
               modal.querySelector(".modal-pris").textContent = retter.Pris;
 

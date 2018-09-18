@@ -71,14 +71,7 @@
     "Navn": "Rice Resp Pie",
     "Id": 9
   },
-  {
-    "Katagori": "",
-    "Pris": "",
-    "Billede": "",
-    "Beskrivelse": "",
-    "Navn": "",
-    "Id": 10
-  },
+
   {
     "Katagori": "Icecream",
     "Pris": "40 kr",
@@ -98,19 +91,12 @@
   {
     "Katagori": "Icecream",
     "Pris": "40 kr",
-    "Billede": "RaspberrryIce",
+    "Billede": "RaspberryICe",
     "Beskrivelse": "Organic icecream",
     "Navn": "Raspberry Icecream",
     "Id": 13
   },
-  {
-    "Katagori": "",
-    "Pris": "",
-    "Billede": "",
-    "Beskrivelse": "",
-    "Navn": "",
-    "Id": 14
-  },
+
   {
     "Katagori": "Drinks",
     "Pris": "50 kr",
