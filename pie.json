@@ -1,80 +1,87 @@
 [
   {
     "Katagori": "Pie",
-    "Pris": 60,
+    "Pris": "60 kr",
     "Billede": "AppelCrunchPie",
-    "Beskrivelse": "Flour, Brown sugar,  Butter, Sugar, Appels & Vanilla",
+    "Beskrivelse": "This infamous pie flavor with the silly name has got the kids jumpin’ in the States.",
     "Navn": "Dutch Apple Crust Pie",
     "Id": 1
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
+    "Pris": "60 kr",
     "Billede": "CreamChokoPie",
-    "Beskrivelse": "Almonds, Cacao powder, Salt, Coconut oil, Milk, Dark chokolate & Maple sirup",
+    "Beskrivelse": "Über-dark chocolate, chewy, fudgy brownie with dark chocolate chips, nestled in a flaky pie crust. Yes. Just yes. (Tip from the pie shop: it's awesome slightly warmed with vanilla ice cream. Just sayin'.",
     "Navn": "Heavy Cream Pie",
     "Id": 2
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
+    "Pris": "60 kr",
     "Billede": "BlueberryPie",
-    "Beskrivelse": "Sugar, Cornstarch, Salt, Cinnamon, Blueberries & Butter",
+    "Beskrivelse": "This infamous pie flavor with the silly name has got the kids jumpin’ in the States.",
     "Navn": "Blue Pie In The Sky",
     "Id": 3
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
+    "Pris": "60 kr",
     "Billede": "StrawberryPie",
-    "Beskrivelse": "Fresh strawberries, sugar, Cornstarch, Lemon, Heavy Cream & Vanilla",
+    "Beskrivelse": "This infamous pie flavor with the silly name has got the kids jumpin’ in the States.",
     "Navn": "StawStar Pie",
     "Id": 4
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
-    "Billede": "Lemonpie",
-    "Beskrivelse": "Lemon, Sugar, Heavy Cream & Vanilla",
+    "Pris": "60 kr",
+    "Billede": "LemonPie",
+    "Beskrivelse": "Love lemon? Then you’ll be all sunny about this citrus beauty. With a cookie crust, a tart lemon curd layer, and a smooth lemon vanilla cream layer, it's topped with fresh whipped cream and lemon peel, and looks like a fresh-picked daisy in July.",
     "Navn": "Lemon Love Pie",
     "Id": 5
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
+    "Pris": "60 kr",
     "Billede": "BourbonPie",
-    "Beskrivelse": "Bourbon, Sugar & Heavy Cream",
+    "Beskrivelse": "With layers of cinnamon bread, vanilla, and a dash of pecans & raisins, this is the ultimate comfort food treat. Served warm with a melted sweet bourbon glaze, it’s pure perfection with a cup of hot coffee!",
     "Navn": "The Grown Up Pie",
     "Id": 6
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
+    "Pris": "60 kr",
     "Billede": "ChokoPie",
-    "Beskrivelse": "Cacao powder, Salt, Coconut oil, Milk, Dark chokolate & Maple sirup",
+    "Beskrivelse": "This infamous pie flavor with the silly name has got the kids jumpin’ in the States.",
     "Navn": "The Brown Pie",
     "Id": 7
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
-    "Billede": "limepie",
-    "Beskrivelse": "Fresh lime, sugar & Heavy Cream",
+    "Pris": "60 kr",
+    "Billede": "LimePie",
+    "Beskrivelse": "This infamous pie flavor with the silly name has got the kids jumpin’ in the States.",
     "Navn": "The Bitter Pie",
     "Id": 8
   },
   {
     "Katagori": "Pie",
-    "Pris": 60,
+    "Pris": "60 kr",
     "Billede": "RaspberryPie",
-    "Beskrivelse": "Fresh raspberry, sugar & Heavy Cream",
+    "Beskrivelse": "This infamous pie flavor with the silly name has got the kids jumpin’ in the States.",
     "Navn": "Rice Resp Pie",
     "Id": 9
   },
-
+  {
+    "Katagori": "",
+    "Pris": "",
+    "Billede": "",
+    "Beskrivelse": "",
+    "Navn": "",
+    "Id": 10
+  },
   {
     "Katagori": "Icecream",
-    "Pris": 40,
+    "Pris": "40 kr",
     "Billede": "StrawberryIce",
     "Beskrivelse": "Organic icecream",
     "Navn": "Strawberry Icecream",
@@ -82,7 +89,7 @@
   },
   {
     "Katagori": "Icecream",
-    "Pris": 40,
+    "Pris": "40 kr",
     "Billede": "OrangeIce",
     "Beskrivelse": "Organic icecream",
     "Navn": "Orange Icecream",
@@ -90,24 +97,31 @@
   },
   {
     "Katagori": "Icecream",
-    "Pris": 40,
-    "Billede": "RaspberryICe",
+    "Pris": "40 kr",
+    "Billede": "RaspberrryIce",
     "Beskrivelse": "Organic icecream",
     "Navn": "Raspberry Icecream",
     "Id": 13
   },
-
+  {
+    "Katagori": "",
+    "Pris": "",
+    "Billede": "",
+    "Beskrivelse": "",
+    "Navn": "",
+    "Id": 14
+  },
   {
     "Katagori": "Drinks",
-    "Pris": 50,
-    "Billede": "hotchoko",
+    "Pris": "50 kr",
+    "Billede": "Hotchoko",
     "Beskrivelse": "Organic chokolate",
     "Navn": "Hot Choko",
     "Id": 15
   },
   {
     "Katagori": "Drinks",
-    "Pris": 50,
+    "Pris": "50 kr",
     "Billede": "coffee",
     "Beskrivelse": "Coffee made on organic coffee beans",
     "Navn": "Coffee",
@@ -115,8 +129,8 @@
   },
   {
     "Katagori": "Drinks",
-    "Pris": 30,
-    "Billede": "te",
+    "Pris": "30 kr",
+    "Billede": "Te",
     "Beskrivelse": "Organic Tea",
     "Navn": "Tea",
     "Id": 17
