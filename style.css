@@ -320,6 +320,18 @@ input[type=submit]:hover {
 
     /*MOBILE*/
 
+@media only screen and (max-width:414px){
+
+.text{
+ display: none;
+
+
+
+
+
+}
+}
+
 @media only screen and (max-width:375px) {
 
     /*MODAL*/
