@@ -386,7 +386,8 @@ input[type=submit]:hover {
 
 
 .text{
- grid-template-columns: 1fr;
+ display: none;
+
 
 
 
@@ -477,13 +478,20 @@ input[type=submit]:hover {
 
 /*FOOTER*/
 
-.footer-company-motto{
-display: none;
+.footer{
+ display: none;
 
 
 
 
 }
+
+    .footer-company-motto{
+  display: none;
+
+
+}
+
 
 
 
